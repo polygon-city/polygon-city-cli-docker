@@ -5,7 +5,7 @@ This is a work-in-progress Docker container for setting up and managing the Poly
 
 ## Getting started
 
-```
+```bash
 $ docker-compose build
 $ docker-compose up -d
 $ docker-compose run node polygon-city [...]
