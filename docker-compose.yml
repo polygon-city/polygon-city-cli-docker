@@ -1,0 +1,8 @@
+node:
+  build: ./node
+  links:
+    - db:redis
+db:
+  image: redis
+  volumes:
+    - /srv/docker/redis:/var/lib/redis
